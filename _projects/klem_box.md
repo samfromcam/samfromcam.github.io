@@ -24,6 +24,7 @@ skill: Django, Python
           <span>Product Development</span>
           <span>Business Development</span>
           <span>Agile Development</span>
+          <span>Papid Prototyping</span>
         </div>
       </div>
 
