@@ -3,7 +3,7 @@ layout: post
 title: KlemBox
 description: The first affordable and innovative experiential learning provider, aligned with the national curriculum, in Cambodia.
 category: Entrepreneurship
-image: /samfolio/assets/images/klembox_thumbnail.jpeg
+image: /assets/images/klembox_thumbnail.jpeg
 skill: Django, Python
 ---
 

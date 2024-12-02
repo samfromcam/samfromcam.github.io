@@ -3,7 +3,7 @@ layout: post
 title: The Mistband
 description: The Mistband is an unobtrusive device consisting of a wrist cuff and a loop that independently and safely opens doors.
 category: Mechanical Design
-image: /samfolio/assets/images/misband.png
+image: /assets/images/misband.png
 skill: Django, Python
 ---
 

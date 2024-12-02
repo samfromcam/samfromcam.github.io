@@ -3,7 +3,7 @@ layout: post
 title: Morfli
 description: A digital "textbook" for introductory materials science that uses computational models to explore materials phenomena.
 category: Software Development
-image: /samfolio/assets/images/morfli.jpg
+image: /assets/images/morfli.jpg
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.

@@ -3,13 +3,13 @@ layout: post
 title: Clip-it Belt
 description: Wheelchair seatbelt that enables users with hand and trunk mobility limitations to fasten their seatbelt independently and securely, promoting ease of use and a sense of autonomy.
 category: Mechanical Design
-image: /samfolio/assets/images/clipit-belt.webp
+image: /assets/images/clipit-belt.webp
 ---
 
 <div class="project-content">
   <div class="project-header">
     <div class="project-image">
-      <img src="/samfolio/assets/images/clipit-belt.webp" alt="Clip-it Belt">
+      <img src="/assets/images/clipit-belt.webp" alt="Clip-it Belt">
     </div>
 
     <div class="project-intro">

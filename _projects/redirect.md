@@ -3,7 +3,7 @@ layout: post
 title: Damous
 description: Creative solutions to customized datasets that you need
 category: Software Development
-image: /samfolio/assets/images/damous_thumb.png
+image: /assets/images/damous_thumb.png
 skill: Django, Python
 ---
 
