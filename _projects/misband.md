@@ -1,145 +1,175 @@
 ---
 layout: post
-title: The Mistband
+title: The Mistband -  wrist cuff door opener
 description: The Mistband is an unobtrusive device consisting of a wrist cuff and a loop that independently and safely opens doors.
 category: Mechanical Design
 image: /assets/images/misband.png
 skill: Django, Python
 ---
 
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+<div class="project-content">
+  <div class="project-header">
+    <div class="project-image">
+      <img src="/assets/images/mistband_product.jpg" alt="the mistband">
+    </div>
 
-H1 Header
-============
+    <div class="project-intro">
+      <div class="focus-area">
+        <h2>Focus Areas</h2>
+        <div class="tags">
+          <span>Industrial Design</span>
+          <span>Product Development</span>
+          <span>Rapid Prototyping</span>
+          <span>Computer Aided Design</span>
+          <span>Sketching</span>
+          <span>3D Printing</span>
+        </div>
+      </div>
 
-Paragraphs are separated by a blank line.
+      <div class="details-grid">
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+        <div class="my-role">
+          <h2>My Role</h2>
+          <p>I conducted client interviews to identify specific needs and pain points. Designed and prototyped the Mistband using CAD software and rapid prototyping techniques. Performed user testing and incorporated feedback into iterative design improvements. Produced a durable, adjustable, and user-friendly final product using 3D printing technology.
+          </p>
+        </div>
 
-  * this one
-  * that one
-  * the other one
+        <div class="impact">
+          <h2>Impact</h2>
+          <p>I empowered a client with C5-C6 complete quadriplegia, to independently open pull-doors with lever handles, significantly improving her autonomy in daily life. Delivered a compact, portable, and comfortable solution that seamlessly integrates into the client’s everyday routine.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-Note that the actual text
-content starts at 4-columns in.
+  <div class="project-body">
+    <div class="problem">
+      <h2>Problem</h2>
+      <p>Our client has C5-C6 complete quadriplegia, which limits her finger mobility and arm strength. They struggle to open pull-doors with lever handles, a   challenge compounded by the need to operate a motorized wheelchair joystick with the right hand.
+      </p>
+      <figure>
+            <img src="/assets/images/mistband_problem.png" alt="Mistband Problem">
+            <figcaption><center><i>Figure 1: Our client demonstrates how she unlatches the handle on a pull door</i></center></figcaption>
+      </figure>
+    </div>
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+    <div class="solution">
+      <h2>Solution</h2>
+      <p>The Mistband, a wristband with an attached loop, enables our client to independently open pull-doors by wrapping the loop around the handle, pushing down, and pulling back. 
+</p>
+      <h3>Key features of the Mistband include:</h3>
+      
+      <h4>Innovative Clip Mechanism</h4>
+      <ul>
+        <li>Allows for quick and easy adjustment</li>
+        <li>Provides a secure fit without the need for holes or a buckle</li>
+      </ul>
 
+      <h4>Safety</h4>
+      <ul>
+        <li>Durable 3D-printed core with smooth edges.</li>
+      </ul>
 
-H2 Header
-------------
+      <h4>Comfort</h4>
+      <ul>
+        <li>Closed-cell foam lining prevents irritation and resists dirt.</li>
+      </ul>
 
-Here's a numbered list:
+      <h4>Portability</h4>
+      <ul>
+        <li>Compact enough to attach to a wheelchair, store in a purse, or wear on the wrist.</li>
+      </ul>
 
- 1. first item
- 2. second item
- 3. third item
+      <h4>Adjustability</h4>
+      <ul>
+        <li>Dual fastening mechanisms ensure a snug fit for secure usage.</li>
+      </ul>
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+      <figure>
+            <img src="/assets/images/mistband_research.png" alt="Mistband Research">
+            <figcaption><center><i>Figure 2: Process of user testing</i></center></figcaption>
+      </figure>
+      <figure>
+            <img src="/assets/images/mistband_mockup.png" alt="Mistband Mockup">
+            <figcaption><center><i>Figure 3: Mockup progression</i></center></figcaption>
+      </figure>
+    </div>
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+    <div class="Final Product">
+       <h2>Final Product</h2>
+      <h4>Video showing on how to use: </h4> 
+      <div class="video-container">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/t8rJG5cKeWg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+    </div>
+  </div>
+</div>
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+<style>
+  .project-content {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it by specifying the languagae after the start of a block (e.g. `~~~python`) which would look like :
+  .project-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+  .project-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
 
-### An H3 header ###
+  .project-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-Now a nested list:
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 
- 1. First, get these ingredients:
+  .tags span {
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
 
-      * carrots
-      * celery
-      * lentils
+  .details-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 
- 2. Boil some water.
+  .details-grid > div {
+    margin-bottom: 1.5rem;
+  }
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+  @media (min-width: 768px) {
+    .project-header {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a footnote [^1].
-
-[^1]: Some footnote text.
-
-Tables can look like this:
-
-| Header 1 | Header 2                   | Header 3 |
-|:--------:|:--------------------------:|:--------:|
-| data1a   | Data is longer than header | 1        |
-| d1b      | add a cell                 |          |
-| lorem    | ipsum                      | 3        |
-|          | empty outside cells        |          |
-| skip     |                            | 5        |
-| six      | Morbi purus                | 6        |
-
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-
-oranges
-  : Citrus!
-
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=300&h=300&fit=crop "An exemplary image")
-
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
-
-$$I = \int \rho R^{2} dV$$
+    .details-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

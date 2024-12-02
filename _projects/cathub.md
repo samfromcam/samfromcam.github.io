@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Clip-it Belt - Retractable Wheelchair seatbelt
+title: CatHub
 description: Wheelchair seatbelt that enables users with hand and trunk mobility limitations to fasten their seatbelt independently and securely, promoting ease of use and a sense of autonomy.
-category: Mechanical Design
+category: Software development
 image: /assets/images/clipit-belt.webp
 ---
 
@@ -25,23 +25,16 @@ image: /assets/images/clipit-belt.webp
         </div>
       </div>
 
-      <div class="details-grid">
-        <div class="project-details">
-          <h2>Description</h2>
-          <p><strong>Company:</strong> Shirley Ryan AbilityLab, Inc.</p>
-          <p><strong>Website:</strong> <a href="https://www.sralab.org/" target="_blank">https://www.sralab.org/</a></p>
-          <p><strong>Project Timeline:</strong> August 2019 - October 2019</p>
-        </div>
+      <div class="project-details">
+        <h2>Description</h2>
+        <p><strong>Company:</strong> Shirley Ryan AbilityLab, Inc.</p>
+        <p><strong>Website:</strong> <a href="https://www.sralab.org/" target="_blank">https://www.sralab.org/</a></p>
+        <p><strong>Project Timeline:</strong> August 2019 - October 2019</p>
+      </div>
 
-        <div class="my-role">
-          <h2>My Role</h2>
-          <p>As an industrial designer, I conceptualized and developed the Clip-It Belt, an innovative accessory designed to address common issues with traditional belts.</p>
-        </div>
-
-        <div class="impact">
-          <h2>Impact</h2>
-          <p>The Clip-It Belt empowers individuals with limited hand and trunk mobility, fostering greater independence and confidence. By addressing an overlooked challenge, this product highlights the role of design in creating meaningful change in everyday lives.</p>
-        </div>
+      <div class="my-role">
+        <h2>My Role</h2>
+        <p>As an industrial designer, I conceptualized and developed the Clip-It Belt, an innovative accessory designed to address common issues with traditional belts.</p>
       </div>
     </div>
   </div>
@@ -138,23 +131,19 @@ image: /assets/images/clipit-belt.webp
     font-size: 0.9rem;
   }
 
-  .details-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  .project-content h2 {
+    margin-bottom: 1rem;
   }
 
-  .details-grid > div {
-    margin-bottom: 1.5rem;
+  .project-content ul {
+    margin-left: 1.5rem;
   }
 
+  /* Responsive layout */
   @media (min-width: 768px) {
     .project-header {
       grid-template-columns: 1fr 1fr;
       align-items: start;
-    }
-
-    .details-grid {
-      grid-template-columns: 1fr 1fr;
     }
   }
 </style>
