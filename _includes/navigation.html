@@ -1,0 +1,93 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-brand">
+      <a href="{{site.baseurl}}/">SAMNANG NUONSINOEUN</a>
+    </div>
+    <div class="nav-links">
+      <a href="{{site.baseurl}}/" class="nav-item">Home</a>
+      <a href="{{site.baseurl}}/projects/" class="nav-item">Projects</a>
+      <a href="{{site.baseurl}}/blog/" class="nav-item">Blog</a>
+    </div>
+  </div>
+</nav>
+
+<style>
+.navbar {
+  background-color: rgb(230, 230, 230);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand a {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.nav-brand a:hover {
+  color: #007bff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.nav-item {
+  color: #666;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-item:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #007bff;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-item {
+    font-size: 0.8rem;
+  }
+}
+</style>

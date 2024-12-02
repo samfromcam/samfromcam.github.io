@@ -1,0 +1,121 @@
+/* Project Page */
+.ProjectContainer {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.projectTile {
+  width: 100%;
+  min-width: 500px;
+  height: 240px;
+  border-radius: 15px;
+  background: $projectbox;
+  @media (prefers-color-scheme: dark) {
+    background: $projectbox-dark;
+  }
+}
+
+.projectTile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.projectTile a span {
+  display: flex;
+  justify-content: center;
+}
+
+.projectTile a span h2 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: $projectbox-text;
+}
+
+.projectTile:hover a span h2 {
+  display: flex;
+}
+
+.projectTile a span p {
+  display: none;
+}
+
+.projectTile:hover a span p {
+  display: none;
+}
+
+@include media-query($on-phone) {
+  @media screen and (max-width: $on-phone){
+
+    .projectTile {
+      height: 120px;
+    }
+
+    .projectTile a span h2 {
+      font-size: 1.2rem;
+    }
+
+    .projectTile:hover a span p {
+      display: none;
+    }
+
+    .projectTile:hover a span h2 {
+      display: flex;
+    }
+
+
+  }
+}
+
+@include media-query($on-palm) {
+  @media screen and (max-width: $on-palm){
+
+    .projectTile {
+      height: 160px;
+    }
+
+    .projectTile a span h2 {
+      font-size: 1.3rem;
+    }
+
+    .projectTile:hover a span p {
+      display: none;
+    }
+
+    .projectTile:hover a span h2 {
+      display: flex;
+    }
+
+  }
+}
+
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+//Based on: https://codepen.io/GeorgePark/pen/vdqYom
