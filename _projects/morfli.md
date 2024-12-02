@@ -6,139 +6,123 @@ category: Software Development
 image: /assets/images/morfli.jpg
 ---
 
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+<div class="project-content">
+  <div class="project-header">
+    <div class="project-image">
+      <img src="/assets/images/klembox_1.png" alt="Klembox Cover Photo">
+    </div>
 
-H1 Header
-============
+    <div class="project-intro">
+      <div class="focus-area">
+        <h2>Focus Areas</h2>
+        <div class="tags">
+          <span>UI/UX</span>
+          <span>Full Stack Development</span>
+          <span>Backend Development</span>
+          <span>Frontend Development</span>
+          <span>Product Development</span>
+          <span>Business Development</span>
+          <span>Agile Development</span>
+          <span>Papid Prototyping</span>
+        </div>
+      </div>
 
-Paragraphs are separated by a blank line.
+      <div class="details-grid">
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+        <div class="description">
+          <h2>Description</h2>
+          <p>KlemBox brings hands-on, project-based learning experiences into Cambodian classrooms through affordable educational kits and teacher training. KlemBox is aligned with the Cambodian national curriculum and provides kits for Science, Technology, Engineering, Art, Mathematics (STEAM), and entrepreneurship subjects. 
+          </p>
+          <p><strong>Website:</strong> <a href="http://www.klembox.co/" target="_blank">http://www.klembox.co/</a></p>
+          <p><strong>Project Timeline:</strong> August 2020 - October 2022</p>
+        </div>
 
-  * this one
-  * that one
-  * the other one
+        <div class="my-role">
+          <h2>My Role</h2>
+          <p>I founded a startup that creates hands-on educational kits to provide students with engaging and fun education activities. Led the team to develop STEAM product lines aligned with the national government curriculum. Led a team of eight people to build and produce over 2500+ kits for rural Cambodians and generated over $45K in revenue. 
+          </p>
+        </div>
 
-Note that the actual text
-content starts at 4-columns in.
+        
+      </div>
+    </div>
+  </div>
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+  <div class="project-body">
+    <div class="problem">
+      <h2>Problem</h2>
+      <p>Students, especially those in public schools, lack access to resources and engaging activities, leading to low student engagement and high dropout rates. The existing Cambodian education system is outdated and does not teach students the 21st century skills necessary for success in the modern workforce. 60% of STEM-related jobs in Cambodia go unfilled because companies cannot find candidates with the requisite skills.
+      </p>
+    </div>
 
+    <div class="solution">
+      <h2>Solution</h2>
+      <p>KlemBox provides affordable, curriculum-aligned kits designed for classroom use with minimal teacher preparation. Covering STEAM and entrepreneurship topics, the kits help students build essential 21st-century skills like problem-solving, communication, and collaboration. To support effective implementation, KlemBox offers online and offline teacher training, including video tutorials, lesson plans, and student guides—ensuring accessibility even in classrooms with limited internet connectivity. 
+</p>
+    </div>
+    <div class="impact">
+          <h2>Impact</h2>
+          <p>KlemBox kits empower students to develop critical thinking, problem-solving, and communication skills through hands-on experiments and projects. With ready-to-use lesson plans and support materials, we make it seamless for teachers to integrate KlemBox into their curriculum, boosting student engagement and reducing dropout rates. We have provided 400 kits to 455 students in 6 provinces since December 2020.
+          </p>
+        </div>
+  </div>
+</div>
 
-H2 Header
-------------
+<style>
+  .project-content {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
-Here's a numbered list:
+  .project-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
 
- 1. first item
- 2. second item
- 3. third item
+  .project-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+  .project-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+  .tags span {
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+  .details-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it by specifying the languagae after the start of a block (e.g. `~~~python`) which would look like :
+  .details-grid > div {
+    margin-bottom: 1.5rem;
+  }
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+  @media (min-width: 768px) {
+    .project-header {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
 
-### An H3 header ###
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a footnote [^1].
-
-[^1]: Some footnote text.
-
-Tables can look like this:
-
-| Header 1 | Header 2                   | Header 3 |
-|:--------:|:--------------------------:|:--------:|
-| data1a   | Data is longer than header | 1        |
-| d1b      | add a cell                 |          |
-| lorem    | ipsum                      | 3        |
-|          | empty outside cells        |          |
-| skip     |                            | 5        |
-| six      | Morbi purus                | 6        |
-
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-
-oranges
-  : Citrus!
-
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=300&h=300&fit=crop "An exemplary image")
-
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
-
-$$I = \int \rho R^{2} dV$$
+    .details-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>
