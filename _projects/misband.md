@@ -34,11 +34,7 @@ skill: Django, Python
           </p>
         </div>
 
-        <div class="impact">
-          <h2>Impact</h2>
-          <p>I empowered a client with C5-C6 complete quadriplegia, to independently open pull-doors with lever handles, significantly improving her autonomy in daily life. Delivered a compact, portable, and comfortable solution that seamlessly integrates into the client’s everyday routine.
-          </p>
-        </div>
+       
       </div>
     </div>
   </div>
@@ -109,6 +105,12 @@ skill: Django, Python
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
     </iframe>
+
+   <div class="impact">
+          <h2>Impact</h2>
+          <p>I empowered a client with C5-C6 complete quadriplegia, to independently open pull-doors with lever handles, significantly improving her autonomy in daily life. Delivered a compact, portable, and comfortable solution that seamlessly integrates into the client’s everyday routine.
+          </p>
+        </div>
 </div>
 
     </div>

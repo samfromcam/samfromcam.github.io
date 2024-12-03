@@ -9,21 +9,18 @@ image: /assets/images/morfli.jpg
 <div class="project-content">
   <div class="project-header">
     <div class="project-image">
-      <img src="/assets/images/klembox_1.png" alt="Klembox Cover Photo">
+      <img src="/assets/images/morfli.png" alt="Morfli">
     </div>
 
     <div class="project-intro">
       <div class="focus-area">
         <h2>Focus Areas</h2>
+
         <div class="tags">
           <span>UI/UX</span>
           <span>Full Stack Development</span>
           <span>Backend Development</span>
           <span>Frontend Development</span>
-          <span>Product Development</span>
-          <span>Business Development</span>
-          <span>Agile Development</span>
-          <span>Papid Prototyping</span>
         </div>
       </div>
 
@@ -31,38 +28,45 @@ image: /assets/images/morfli.jpg
 
         <div class="description">
           <h2>Description</h2>
-          <p>KlemBox brings hands-on, project-based learning experiences into Cambodian classrooms through affordable educational kits and teacher training. KlemBox is aligned with the Cambodian national curriculum and provides kits for Science, Technology, Engineering, Art, Mathematics (STEAM), and entrepreneurship subjects. 
+          <p>
+            This project involved designing and developing a flashcard interface for Morfli, an online learning platform. The goal was to provide students with an integrated tool for spaced repetition learning directly within their course materials.
           </p>
-          <p><strong>Website:</strong> <a href="http://www.klembox.co/" target="_blank">http://www.klembox.co/</a></p>
-          <p><strong>Project Timeline:</strong> August 2020 - October 2022</p>
-        </div>
-
-        <div class="my-role">
-          <h2>My Role</h2>
-          <p>I founded a startup that creates hands-on educational kits to provide students with engaging and fun education activities. Led the team to develop STEAM product lines aligned with the national government curriculum. Led a team of eight people to build and produce over 2500+ kits for rural Cambodians and generated over $45K in revenue. 
-          </p>
-        </div>
-
-        
+          <p><strong>Website:</strong> <a href="https://www.morfli.com/" target="_blank">https://www.morfli.com/</a></p>
+          <p><strong>Project Timeline:</strong> September 2023 - April 2024</p>
+        </div>        
       </div>
     </div>
   </div>
 
   <div class="project-body">
+      <div class="my-role">
+        <h2>My Role</h2>
+          <p>I designed and developed Morfli's flashcard interface to enhance learning and retention, conducting user research with students and faculty to gather insights. Using their feedback, I created and refined mockups, then implemented a cohesive and engaging solution. 
+          </p>
+        </div>
+
     <div class="problem">
       <h2>Problem</h2>
-      <p>Students, especially those in public schools, lack access to resources and engaging activities, leading to low student engagement and high dropout rates. The existing Cambodian education system is outdated and does not teach students the 21st century skills necessary for success in the modern workforce. 60% of STEM-related jobs in Cambodia go unfilled because companies cannot find candidates with the requisite skills.
+      <p>Students using Morfli were relying on external flashcard platforms to supplement their learning, which was time-consuming and disruptive to their workflow. These external platforms were also not tailored to specific course content.
       </p>
     </div>
 
     <div class="solution">
       <h2>Solution</h2>
-      <p>KlemBox provides affordable, curriculum-aligned kits designed for classroom use with minimal teacher preparation. Covering STEAM and entrepreneurship topics, the kits help students build essential 21st-century skills like problem-solving, communication, and collaboration. To support effective implementation, KlemBox offers online and offline teacher training, including video tutorials, lesson plans, and student guides—ensuring accessibility even in classrooms with limited internet connectivity. 
-</p>
+      <p>A new flashcard block was developed and integrated into the Morfli platform. The solution includes:</p>
+      <ul>
+        <li>Customizable Flashcard Decks: Instructors can create flashcard decks tailored to their course content.</li>
+        <li>Spaced Repetition Integration: The Orbit framework is used to manage spaced repetition schedules and send reminder emails to students.
+</li>
+        <li>Seamless Integration: The flashcard interface is embedded within Morfi lesson pages, creating a smooth learning experience.
+</li>
+        <li>User-Friendly Interface: The interface allows instructors to easily create, edit, and manage flashcards, while students can efficiently review and learn from them.
+</li>
+      </ul>
     </div>
     <div class="impact">
           <h2>Impact</h2>
-          <p>KlemBox kits empower students to develop critical thinking, problem-solving, and communication skills through hands-on experiments and projects. With ready-to-use lesson plans and support materials, we make it seamless for teachers to integrate KlemBox into their curriculum, boosting student engagement and reducing dropout rates. We have provided 400 kits to 455 students in 6 provinces since December 2020.
+          <p>The flashcard interface improves student learning efficiency and effectiveness by reducing reliance on external flashcard platforms like Anki or Quizlet, Integrating spaced repetition techniques directly into Morfli, so educators can easily create flashcards inside the lesson page.  This created a more streamlined and less disruptive learning flow for students.
           </p>
         </div>
   </div>

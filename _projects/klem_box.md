@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KlemBox
+title: KlemBox - Experiential learning provider
 description: The first affordable and innovative experiential learning provider, aligned with the national curriculum, in Cambodia.
 category: Entrepreneurship
 image: /assets/images/klembox_thumbnail.jpeg
@@ -32,16 +32,9 @@ skill: Django, Python
 
         <div class="description">
           <h2>Description</h2>
-          <p>KlemBox brings hands-on, project-based learning experiences into Cambodian classrooms through affordable educational kits and teacher training. KlemBox is aligned with the Cambodian national curriculum and provides kits for Science, Technology, Engineering, Art, Mathematics (STEAM), and entrepreneurship subjects. 
+          <p>KlemBox brings hands-on, project-based learning experiences into Cambodian classrooms through affordable educational kits and teacher training. KlemBox is aligned with the Cambodian national curriculum and provides kits for Science subjects. 
           </p>
           <p><strong>Website:</strong> <a href="http://www.klembox.co/" target="_blank">http://www.klembox.co/</a></p>
-          <p><strong>Project Timeline:</strong> August 2020 - October 2022</p>
-        </div>
-
-        <div class="my-role">
-          <h2>My Role</h2>
-          <p>I founded a startup that creates hands-on educational kits to provide students with engaging and fun education activities. Led the team to develop STEAM product lines aligned with the national government curriculum. Led a team of eight people to build and produce over 2500+ kits for rural Cambodians and generated over $45K in revenue. 
-          </p>
         </div>
 
         
@@ -50,6 +43,13 @@ skill: Django, Python
   </div>
 
   <div class="project-body">
+
+    <div class="my-role">
+          <h2>My Role</h2>
+          <p>I founded a startup that creates hands-on educational kits to provide students with engaging and fun education activities. Led the team to develop STEAM product lines aligned with the national government curriculum. Led a team of eight people to build and produce over 2500+ kits for rural Cambodians and generated over $45K in revenue. 
+          </p>
+        </div>
+
     <div class="problem">
       <h2>Problem</h2>
       <p>Students, especially those in public schools, lack access to resources and engaging activities, leading to low student engagement and high dropout rates. The existing Cambodian education system is outdated and does not teach students the 21st century skills necessary for success in the modern workforce. 60% of STEM-related jobs in Cambodia go unfilled because companies cannot find candidates with the requisite skills.
