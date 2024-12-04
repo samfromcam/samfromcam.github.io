@@ -132,7 +132,7 @@ image: /assets/images/clipit-belt.webp
   }
 
   .tags span {
-    background-color: #f0f0f0;
+    background-color: #f48023;
     padding: 4px 8px;
     border-radius: 5px;
     font-size: 0.9rem;
