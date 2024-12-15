@@ -3,7 +3,7 @@ layout: post
 title: Microbot - Two-wheel RC Robot
 description: MicroBot is a two-wheel differential drive robot that is controlled by the built-in accelerometer on the Micro:bit.
 category: Hardware Development
-image: /assets/images/clipit-belt.webp
+image: /assets/images/microbot.jpeg
 ---
 
 <div class="project-content">
