@@ -37,9 +37,8 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
+      - microbot.md
       - klem_box.md
-      - redirect.md
       - morfli.md
       - misband.md
       - clip_it_belt.md
